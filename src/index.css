@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root{
+    --baground-color: #000;
+    --text-color-normal:#fff;
+   
+    --div-color-1 : #09122C;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    background: var(--baground-color);
+    color: var(--text-color-normal);
+}
+
