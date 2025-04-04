@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import project1 from '../assets/images/project1.jpg';
 
 function Projects() {
 
@@ -21,7 +22,7 @@ function Projects() {
           <div className="projectImg max-h-60 sm:max-h-40 w-full sm:max-w-56  bg-white rounded-2xl overflow-hidden ">
             <img
               className="w-full h-full"
-              src="./src/assets/images/project1.jpg"
+              src={project1}
               alt=""
             />
           </div>
@@ -65,7 +66,7 @@ function Projects() {
               <i class="ri-arrow-right-up-line"></i>
             </a>
           </div>
-          <NavLink to={"/singleproject"}>
+          <NavLink to={"/"}>
             <span className="text-teal-500 hover:text-teal-400">
               readmore...<i class="ri-arrow-right-down-long-line"></i>
             </span>

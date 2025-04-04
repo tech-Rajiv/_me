@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import Tabs from "../components/Tabs";
+
+import project1 from '../assets/images/project1.jpg';
 
 function AllProjects() {
     const location = useLocation()
@@ -22,7 +23,7 @@ function AllProjects() {
                 <div className="projectImg max-h-60 sm:max-h-40 w-full sm:max-w-56  bg-white rounded-2xl overflow-hidden ">
                   <img
                     className="w-full h-full"
-                    src="./src/assets/images/project1.jpg"
+                    src={project1}
                     alt=""
                   />
                 </div>

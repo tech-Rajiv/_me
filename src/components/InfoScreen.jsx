@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from '../assets/images/aavatar.png'
 
 function InfoScreen() {
   return (
@@ -8,7 +9,7 @@ function InfoScreen() {
           <div className="img max-w-20 max-h-20 rounded-xl overflow-hidden object-cover">
             <img
               className="w-full h-full"
-              src="./src/assets/images/aavatar.png"
+              src={avatar}
               alt=""
             />
           </div>
@@ -35,9 +36,9 @@ function InfoScreen() {
 
         <div className="flex  gap-2 mt-5 justify-between items-end">
           <div className="flex w-full gap-2 md:gap-4">
-            <button className="bg-teal-700 hover:bg-teal-600 py-2 w-full md:max-w-44  rounded-md text-white font-semibold">
+            <a href="mailto:999rajivmishra@gmail.com" className="bg-teal-700 hover:bg-teal-600 py-2 text-center w-full md:max-w-44  rounded-md text-white font-semibold">
               Contact me <i class="ri-chat-3-line text-lg font-medium "></i>
-            </button>
+            </a>
             <button className="shadow-2xl border w-full md:max-w-44 py-2 hover:bg-[#222831]  rounded-md text-white font-semibold">
               Resume
               <span>
