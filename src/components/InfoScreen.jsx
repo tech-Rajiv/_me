@@ -2,7 +2,7 @@ import React from "react";
 
 function InfoScreen() {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div className=" p-5  rounded-xl  bg-gray-950 shadow-2xs">
         <div className="logoInfo flex gap-5 items-center">
           <div className="img max-w-20 max-h-20 rounded-xl overflow-hidden object-cover">
