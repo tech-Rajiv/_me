@@ -8,13 +8,19 @@ import ContactMe from "../components/ContactMe";
 
 function Home() {
   return (
-    <section className="home w-full">
+    <section  className="home w-full">
       <Tabs />
+
       <InfoScreen />
+
       <Projects />
+
       <AboutShort />
+
       <Technologies />
+
       <ContactMe />
+
       <MobileFotter />
     </section>
   );

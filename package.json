@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://tech-Rajiv.github.io/_me/",
-
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
@@ -16,9 +15,11 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.8.3",
+    "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.22.0",
+    "react-scroll": "^1.9.3",
     "remixicon": "^4.6.0",
     "tailwindcss": "^4.0.14"
   },

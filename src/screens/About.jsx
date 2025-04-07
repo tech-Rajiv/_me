@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 import { GraduationCap, Briefcase, Lightbulb } from "lucide-react";
 function About() {
   return (
-    <div className="max-w-2xl">
+    <div id="aboutMe" className="max-w-2xl">
       <h2 className="text-lg font-semibold mb-4 flex items-center">
         <Briefcase className="mr-2 text-teal-500" /> About Me
       </h2>
@@ -20,10 +20,10 @@ function About() {
         which led me to pursue an MCA "
       </p>
       <div className="text-end mt-2">
-        SURAT <i class="ri-map-pin-2-line text-teal-500  "></i>
+        SURAT <i className="ri-map-pin-2-line text-teal-500  "></i>
       </div>
       <div className="text-end mt-2">
-        999rajivmishra@gmail.com <i class="ri-mail-line text-teal-500 "></i>
+        999rajivmishra@gmail.com <i className="ri-mail-line text-teal-500 "></i>
       </div>
 
       <h2 className="text-xl font-semibold mb-2 flex items-center mt-5">
@@ -47,7 +47,7 @@ function About() {
         my skills"
       </div>
 
-      <NavLink to={"/"} className="text-teal-500 mt-2 hidden lg:flex justify-end text-end">view projects<i class="ri-arrow-right-down-long-line"></i></NavLink>
+      <NavLink to={"/"} className="text-teal-500 mt-2 hidden lg:flex justify-end text-end">view projects<i className="ri-arrow-right-down-long-line"></i></NavLink>
     </div>
   );
 }

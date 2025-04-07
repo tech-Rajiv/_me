@@ -71,13 +71,13 @@ const [errors, setErrors] = useState(false)
                 required
               ></textarea>
             </div>
-                { errors ? <div className="tect-sm "><i class="ri-error-warning-line text-red-500"></i> All fields are required!</div>: <></>}
+                { errors ? <div className="tect-sm "><i className="ri-error-warning-line text-red-500"></i> All fields are required!</div>: <></>}
             <button
               onClick={handelSent}
               type="submit"
               className="w-full mt-4 bg-teal-500 text-white py-3 rounded-lg font-semibold hover:bg-teal-400"
             >
-              Send Message <i class="ri-send-plane-line"></i>
+              Send Message <i className="ri-send-plane-line"></i>
             </button>
           </form>
         ) : (
@@ -85,7 +85,7 @@ const [errors, setErrors] = useState(false)
             <div>
               {" "}
               <h3 className="text-lg   ">
-                <i class="ri-verified-badge-fill text-green-400"></i> Thank you
+                <i className="ri-verified-badge-fill text-green-400"></i> Thank you
                 for reaching out!
               </h3>
               <p className="text-gray-300 text-sm">
