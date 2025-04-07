@@ -1,12 +1,45 @@
-# React + Vite
+# 🌐 Rajiv Mishra | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my developer portfolio! This is the source code for my personal portfolio website, built to showcase my projects, skills, and journey into software development.
 
-Currently, two official plugins are available:
+## 🧑‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm an MCA student with a background in Electronics (BSc), who discovered a passion for software development and made a dedicated shift into tech. I enjoy building clean, responsive, and functional web applications while continuously exploring new technologies.
 
-## Expanding the ESLint configuration
+## 🚀 What This Portfolio Includes
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💼 Overview of my projects
+- 🛠️ Tech stack and skills
+- 📫 Contact links and social profiles
+- 📱 Mobile-friendly design
+- 🌐 Hosted with GitHub Pages
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript, React, Vite
+- **Styling:** Tailwind CSS
+- **Version Control:** Git & GitHub
+- **Hosting:** GitHub Pages
+
+## 🔗 Live Website
+
+[Click here to visit my portfolio](https://tech-rajiv.github.io/_me)
+
+## 📸 Preview
+
+will be shared soon
+
+
+## 🤝 Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/your-link)
+- 🐙 [GitHub](https://github.com/tech-rajiv)
+- 📧 Email: 999rajivmishra@gmail.com
+
+---
+
+Feel free to explore the code and reach out if you'd like to collaborate or have feedback!
+
+
+
+
