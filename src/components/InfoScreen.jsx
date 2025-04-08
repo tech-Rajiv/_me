@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/images/aavatar.png";
+import avatar from "../assets/images/aavatar.webp";
 import { Link } from "react-scroll";
 
 
