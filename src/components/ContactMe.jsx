@@ -6,11 +6,11 @@ export default function ContactMe() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [userMsg, setUserMsg] = useState("");
-const [errors, setErrors] = useState(false)
+  const [errors, setErrors] = useState(false);
   const handelSent = (e) => {
     e.preventDefault();
     if (name.trim() === "" || email.trim() === "" || userMsg.trim() === "") {
-      setErrors(true)
+      setErrors(true);
       return;
     }
 
@@ -71,11 +71,18 @@ const [errors, setErrors] = useState(false)
                 required
               ></textarea>
             </div>
-                { errors ? <div className="tect-sm "><i className="ri-error-warning-line text-red-500"></i> All fields are required!</div>: <></>}
+            {errors ? (
+              <div className="tect-sm ">
+                <i className="ri-error-warning-line text-red-500"></i> All
+                fields are required!
+              </div>
+            ) : (
+              <></>
+            )}
             <button
               onClick={handelSent}
               type="submit"
-              className="w-full mt-4 bg-teal-500 text-white py-3 rounded-lg font-semibold hover:bg-teal-400"
+              className="w-full mt-4 bg-teal-700 hover:bg-teal-600 text-white py-3 rounded-lg font-semibold "
             >
               Send Message <i className="ri-send-plane-line"></i>
             </button>
@@ -85,8 +92,8 @@ const [errors, setErrors] = useState(false)
             <div>
               {" "}
               <h3 className="text-lg   ">
-                <i className="ri-verified-badge-fill text-green-400"></i> Thank you
-                for reaching out!
+                <i className="ri-verified-badge-fill text-green-400"></i> Thank
+                you for reaching out!
               </h3>
               <p className="text-gray-300 text-sm">
                 I'll get back to you as soon as possible.

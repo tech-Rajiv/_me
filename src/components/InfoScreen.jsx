@@ -14,9 +14,9 @@ function InfoScreen() {
             <img className="w-full h-full" src={avatar} alt="" />
           </div>
           <div className="information">
-            <div className="text-xs flex gap-2  items-center ">
+            <div className="text-xs flex gap-1  items-center ">
               <div className="bg-green-400 w-2 h-2 rounded-full text-gray-200"></div>
-              Available To Work
+             Online
             </div>
             <div className="text-2xl text-teal-500 font-bold ">
               Rajiv Mishra
@@ -68,20 +68,27 @@ function InfoScreen() {
         <div  className="flex text-2xl justify-between gap-5 px-5 items-center text-teal-600 ">
           <p className="text-sm hidden sm:block text-white">Socials :</p>
           <div>
-            <i className="logo ri-mail-line hover:text-teal-400"></i>
+            <a href="mailto:999rajivmishra@gmail.com">
+            <i className="logo ri-mail-line hover:text-teal-400"></i></a>
           </div>
           <div>
-            <i className="logo ri-instagram-line hover:text-teal-400"></i>
+            <a href="https://www.instagram.com/rajiv.007" target="_blank" rel="noopener noreferrer">
+            <i className="logo ri-instagram-line hover:text-teal-400"></i></a>
           </div>
           <div>
-            <i className="logo ri-linkedin-fill hover:text-teal-400"></i>
-          </div>
-          <div>
-            <i className="logo ri-github-line hover:text-teal-400"></i>
+            <a href="https://www.linkedin.com/in/rajiv-mishra-b56949337" target="_blank" rel="noopener noreferrer" >
+            <i className="logo ri-linkedin-fill hover:text-teal-400"></i></a>
           </div>
 
           <div>
+            <a href="https://github.com/tech-Rajiv" target="_blank" rel="noopener noreferrer">
+            <i className="logo ri-github-line hover:text-teal-400"></i></a>
+          </div>
+
+          <div>
+            <a href="https://x.com/rajiv_mishraa" target="_blank" rel="noopener noreferrer">
             <i className="logo ri-twitter-line hover:text-teal-400"></i>
+            </a>
           </div>
         </div>
       </div>

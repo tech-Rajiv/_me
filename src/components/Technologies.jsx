@@ -13,7 +13,7 @@ function Technologies() {
         </div>
         <div
     
-          className="  logosWrapper flex flex-wrap justify-items-stretch gap-2 text-lg mt-5"
+          className="  logosWrapper flex flex-wrap justify-items-stretch gap-3 text-lg mt-5"
         >
           <div className="box px-2 bg-black border rounded hover:translate-y-[-2px] hover:transform transition duration-300">
             <i className="ri-javascript-line text-teal-500"></i> Javascript
@@ -21,20 +21,22 @@ function Technologies() {
           <div className="box px-2 bg-black border border-gray-300 rounded hover:translate-y-[-2px] hover:transform transition duration-300">
             <i className="ri-reactjs-line text-teal-500"></i> ReactJs
           </div>
+          <div className="box px-2 bg-black border border-gray-300 rounded hover:translate-y-[-2px] hover:transform transition duration-300">
+            <i className="ri-exchange-2-fill text-teal-500"></i> REST API Integration
+          </div>
           <div className="box px-2 bg-black border border-gray-300  rounded  hover:translate-y-[-2px] hover:transform transition duration-300">
             <i className="ri-tailwind-css-fill text-teal-500"></i> GSAP
             animations
           </div>
           <div className="box px-2 bg-black border border-gray-300  rounded  hover:translate-y-[-2px] hover:transform transition duration-300">
-            <i className="ri-tailwind-css-fill text-teal-500"></i> Tailwind
+            <i className="ri-tailwind-css-fill text-teal-500"></i> Tailwind & shadcn UI
           </div>
 
           <div className="box px-2 bg-black border border-gray-300  rounded hover:translate-y-[-2px] hover:transform transition duration-300">
-            <i className="ri-database-2-line text-teal-500"></i> Firebase
-            DataBase
+            <i className="ri-database-2-line text-teal-500"></i> Firebase (Realtime Database)
           </div>
           <div className="box px-2 bg-black border border-gray-300  rounded hover:translate-y-[-2px] hover:transform transition duration-300">
-            <i className="ri-github-line text-teal-500"></i> Git
+            <i className="ri-github-line text-teal-500"></i> Git & GitHub
           </div>
         </div>
       </div>
