@@ -1,14 +1,12 @@
 import React from "react";
 import avatar from "../assets/images/aavatar.webp";
 import { Link } from "react-scroll";
-
-
+import resumePDF from "../assets/PDFs/resume.pdf";
 
 function InfoScreen() {
-
   return (
     <div className="w-full ">
-      <div   className=" p-5  rounded-xl  bg-gray-950 shadow-2xs">
+      <div className=" p-5  rounded-xl  bg-gray-950 shadow-2xs">
         <div className="info logoInfo flex gap-5 items-center">
           <div className="img max-w-20 max-h-20 rounded-xl overflow-hidden object-cover">
             <img className="w-full h-full" src={avatar} alt="" />
@@ -16,7 +14,7 @@ function InfoScreen() {
           <div className="information">
             <div className="text-xs flex gap-1  items-center ">
               <div className="bg-green-400 w-2 h-2 rounded-full text-gray-200"></div>
-             Online
+              Online
             </div>
             <div className="text-2xl text-teal-500 font-bold ">
               Rajiv Mishra
@@ -42,16 +40,20 @@ function InfoScreen() {
             >
               Contact me <i className="ri-chat-3-line text-lg font-medium "></i>
             </a>
-            <button className="shadow-2xl border w-full md:max-w-44 py-2 hover:bg-[#222831]  rounded-md text-white font-semibold">
+
+            <a
+              href={resumePDF}
+              download={resumePDF}
+              className="shadow-2xl flex justify-center items-center border w-full md:max-w-44 py-2 hover:bg-[#222831]  rounded-md text-white font-semibold"
+            >
               Resume
               <span>
                 <i className="ri-file-download-line ml-2 font-medium"></i>
               </span>
-            </button>
+            </a>
           </div>
 
           <div>
-          
             <Link
               to="aboutMe"
               smooth={true}
@@ -65,29 +67,49 @@ function InfoScreen() {
       </div>
 
       <div className="bg-gray-950 mt-3 rounded-2xl shadow-2xl  p-5">
-        <div  className="flex text-2xl justify-between gap-5 px-5 items-center text-teal-600 ">
+        <div className="flex text-2xl justify-between gap-5 px-5 items-center text-teal-600 ">
           <p className="text-sm hidden sm:block text-white">Socials :</p>
           <div>
             <a href="mailto:999rajivmishra@gmail.com">
-            <i className="logo ri-mail-line hover:text-teal-400"></i></a>
+              <i className="logo ri-mail-line hover:text-teal-400"></i>
+            </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/rajiv.007" target="_blank" rel="noopener noreferrer">
-            <i className="logo ri-instagram-line hover:text-teal-400"></i></a>
+            <a
+              href="https://www.instagram.com/rajiv.007"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="logo ri-instagram-line hover:text-teal-400"></i>
+            </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/rajiv-mishra-b56949337" target="_blank" rel="noopener noreferrer" >
-            <i className="logo ri-linkedin-fill hover:text-teal-400"></i></a>
+            <a
+              href="https://www.linkedin.com/in/rajiv-mishra-b56949337"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="logo ri-linkedin-fill hover:text-teal-400"></i>
+            </a>
           </div>
 
           <div>
-            <a href="https://github.com/tech-Rajiv" target="_blank" rel="noopener noreferrer">
-            <i className="logo ri-github-line hover:text-teal-400"></i></a>
+            <a
+              href="https://github.com/tech-Rajiv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="logo ri-github-line hover:text-teal-400"></i>
+            </a>
           </div>
 
           <div>
-            <a href="https://x.com/rajiv_mishraa" target="_blank" rel="noopener noreferrer">
-            <i className="logo ri-twitter-line hover:text-teal-400"></i>
+            <a
+              href="https://x.com/rajiv_mishraa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="logo ri-twitter-line hover:text-teal-400"></i>
             </a>
           </div>
         </div>
