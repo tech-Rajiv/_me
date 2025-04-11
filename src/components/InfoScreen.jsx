@@ -14,7 +14,7 @@ function InfoScreen() {
           <div className="information">
             <div className="text-xs flex gap-1  items-center ">
               <div className="bg-green-400 w-2 h-2 rounded-full text-gray-200"></div>
-              Online
+              Available
             </div>
             <div className="text-2xl text-teal-500 font-bold ">
               Rajiv Mishra

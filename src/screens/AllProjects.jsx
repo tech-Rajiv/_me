@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import project2 from "../assets/images/project2.webp";
-import project111 from "../assets/images/project111.webp";
+import project111 from "../assets/images/project1.webp";
 
 function AllProjects() {
   const location = useLocation();
