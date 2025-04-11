@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import project1 from "../assets/images/project1.webp";
+import project2 from "../assets/images/project2.webp";
 import project111 from "../assets/images/project111.webp";
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
           <div className="projectImg shadow-2xl bg-gray-900 h-60 sm:h-44  w-full sm:max-w-64 rounded-2xl overflow-hidden ">
             <img
               className="w-full h-full rounded-2xl"
-              src={project111}
+              src={project2}
               alt="ai iamge editor"
             />
           </div>
