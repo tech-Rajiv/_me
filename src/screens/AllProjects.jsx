@@ -11,7 +11,7 @@ function AllProjects() {
     <div className="projcts py-2 lg:py-1 mt-5 px-5 lg:px-1">
       <div className="goBack">
         <NavLink to={"/"}>
-          <h1 className="text-xl">
+          <h1 className="text-lg">
             <i className="ri-arrow-left-line mr-2 "></i>go back
           </h1>
         </NavLink>
