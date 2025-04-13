@@ -35,7 +35,7 @@ function InfoScreen() {
         <div className="flex info gap-2 mt-5 justify-between items-end">
           <div className="flex w-full gap-2 md:gap-4">
             <a
-              href="mailto:999rajivmishra@gmail.com"
+              href="mailto:contact.rajivmishra@gmail.com"
               className="bg-teal-700 hover:bg-teal-600 py-2 text-center w-full md:max-w-44  rounded-md text-white font-semibold"
             >
               Contact me <i className="ri-chat-3-line text-lg font-medium "></i>
@@ -43,7 +43,8 @@ function InfoScreen() {
 
             <a
               href={resumePDF}
-              download={resumePDF}
+              target="_blank"
+              rel="noopener noreferrer"
               className="shadow-2xl flex justify-center items-center border w-full md:max-w-44 py-2 hover:bg-[#222831]  rounded-md text-white font-semibold"
             >
               Resume
@@ -70,7 +71,7 @@ function InfoScreen() {
         <div className="flex text-2xl justify-between gap-5 px-5 items-center text-teal-600 ">
           <p className="text-sm hidden sm:block text-white">Socials :</p>
           <div>
-            <a href="mailto:999rajivmishra@gmail.com">
+            <a href="mailto:contact.rajivmishra@gmail.com">
               <i className="logo ri-mail-line hover:text-teal-400"></i>
             </a>
           </div>

@@ -8,7 +8,7 @@ function MobileFotter() {
       </div>
 
       <div className="flex flex-col md:flex-row gap-4 mt-5  md:justify-between  text-teal-500 text-xl">
-        <a href="mailto:999rajivmishra@gmail.com"  >
+        <a href="mailto:contact.rajivmishra@gmail.com"  >
           <p className="links3  flex items-baseline">
             Gmail <i className="ri-arrow-right-up-line"></i>
           </p>
