@@ -37,7 +37,7 @@ function Projects() {
             </p>
             <p className="text-gray-400 text-base lg:text-md ">
               {" "}
-              extras: reduces image size.
+              includes fast download and image compressions
             </p>
 
             <div className="flex flex-wrap  gap-2  text-base sm:text-sm items-center mt-2 ">
@@ -48,7 +48,7 @@ function Projects() {
                 <i className="ri-tailwind-css-fill text-teal-500"></i> shadCN
               </div>
               <div className="px-2 bg-black border border-gray-300  rounded  hover:translate-y-[-2px] hover:transform transition duration-300">
-                <i className="ri-exchange-2-fill text-teal-500"></i>Axios
+                <i className="ri-exchange-2-fill text-teal-500"></i> Axios
               </div>
               <div className="px-2 bg-black border border-gray-300  rounded  hover:translate-y-[-2px] hover:transform transition duration-300">
                 <i className="ri-database-2-line text-teal-500"></i> Local

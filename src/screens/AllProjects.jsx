@@ -1,12 +1,10 @@
 import React from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import project2 from "../assets/images/project2.webp";
 import project111 from "../assets/images/project1.webp";
 
 function AllProjects() {
-  const location = useLocation();
-  const backUrl = location.state?.fromUrl;
-  console.log(backUrl);
+
   return (
     <div className="projcts py-2 lg:py-1 mt-5 px-5 lg:px-1">
       <div className="goBack">

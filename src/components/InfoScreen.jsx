@@ -47,7 +47,7 @@ function InfoScreen() {
               rel="noopener noreferrer"
               className="shadow-2xl flex justify-center items-center border w-full md:max-w-44 py-2 hover:bg-[#222831]  rounded-md text-white font-semibold"
             >
-              Resume
+              Resume 
               <span>
                 <i className="ri-file-download-line ml-2 font-medium"></i>
               </span>

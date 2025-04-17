@@ -4,11 +4,11 @@ function MobileFotter() {
   return (
     <section className=" text-white px-5 mt-20">
       <div className="headingTop ">
-        <h1 className="text-lg font-semibold pagedown ">Important Links !</h1>
+        <h1 className="text-lg font-semibold pagedown ">Contact Links !</h1>
       </div>
 
       <div className="flex flex-col md:flex-row gap-4 mt-5  md:justify-between  text-teal-500 text-xl">
-        <a href="mailto:contact.rajivmishra@gmail.com"  >
+        <a href="mailto:contact.rajivmishra@gmail.com" target="_blank" rel="noopener noreferrer" >
           <p className="links3  flex items-baseline">
             Gmail <i className="ri-arrow-right-up-line"></i>
           </p>
