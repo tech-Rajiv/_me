@@ -59,7 +59,7 @@ function InfoScreen() {
               to="aboutMe"
               smooth={true}
               duration={500}
-              className="hidden text-gray-300 hover:text-gray-100 sm:flex "
+              className="hidden cursor-pointer text-gray-300 hover:text-gray-100 sm:flex "
             >
               readmore..<i className="ri-arrow-down-line"></i>
             </Link>
